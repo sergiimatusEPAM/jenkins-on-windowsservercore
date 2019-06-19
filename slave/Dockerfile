@@ -1,6 +1,6 @@
-FROM openjdk:8-windowsservercore
+FROM openjdk:8-windowsservercore-1809
 
-MAINTAINER Alex Smagin
+MAINTAINER SM
 
 # Jenkins defaults (use --build-arg to override)
 ARG JENKINS_VERSION=2.46.1
